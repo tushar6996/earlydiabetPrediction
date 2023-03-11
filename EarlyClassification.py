@@ -5,14 +5,14 @@ import streamlit as st
 import time
 import matplotlib.pyplot as plt
 
-df = pd.read_csv('DataSets\Early Classification of Diabetes.csv')
+df = pd.read_csv('DataSets/Early Classification of Diabetes.csv')
 
 cols = (df.columns[0]).split(';')
 
 
 def ecpred():
     model = pickle.load(
-        open('models\Early_Classification_of_Diabetes.pkl', 'rb'))
+        open('models/Early_Classification_of_Diabetes.pkl', 'rb'))
 
     st.title('Early Classification of Diabetes')
     criteria = []
