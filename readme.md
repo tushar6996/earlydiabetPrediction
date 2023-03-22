@@ -3,24 +3,34 @@ Early-stage diabetes risk prediction is the process of identifying individuals w
 There are several risk factors that can be used to predict an individual's risk of developing diabetes, including age, family history, obesity, physical inactivity, and certain medical conditions such as high blood pressure or high cholesterol. In addition, blood tests can also be used to identify individuals who may have elevated blood sugar levels and are at risk of developing diabetes.
 
 Diabetes analysis using machine learning (ML) involves using data mining techniques to extract insights and patterns from diabetes-related datasets. These insights can help predict the likelihood of a person developing diabetes, identify the factors that contribute to diabetes, and develop strategies to prevent or manage diabetes
+</p>
 
+<div>
 ## Run Locally
 
 Clone the project
 
-  git clone https://github.com/tushar6996/Pima-Indians-Diabetes.git
+```bash
+  git clone https://github.com/tushar6996/earlydiabetPrediction.git
+```
 
 Go to the project directory
 
+```bash
   cd Pima-Indians-Diabetes
+```
 
 Install dependencies
 
+```bash
   pip3 install -r requirements.txt
+```
 
 Start the server
 
+```bash
   streamlit run app.py
+```
 
 
 <bold>contact</bold>
